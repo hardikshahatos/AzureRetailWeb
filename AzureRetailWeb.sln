@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureRetailWeb", "AzureReta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerService", "CustomerService\CustomerService.csproj", "{18FE345A-86DB-40B0-B994-6432BD5934A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService", "ProductService\ProductService.csproj", "{C20D5888-B13E-4EAC-83ED-E78EA970FC7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{18FE345A-86DB-40B0-B994-6432BD5934A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18FE345A-86DB-40B0-B994-6432BD5934A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18FE345A-86DB-40B0-B994-6432BD5934A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C20D5888-B13E-4EAC-83ED-E78EA970FC7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C20D5888-B13E-4EAC-83ED-E78EA970FC7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C20D5888-B13E-4EAC-83ED-E78EA970FC7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C20D5888-B13E-4EAC-83ED-E78EA970FC7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

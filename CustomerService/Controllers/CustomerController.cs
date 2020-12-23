@@ -19,6 +19,7 @@ namespace CustomerService.Controllers
         {
             authenticateCustomerComponent = new CustomerComponent();
         }
+        
         [HttpGet]
         [Route("api/customer/{id:int}")]
         public ActionResult<Customer> Get(int id)
