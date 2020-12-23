@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureRetailWeb", "AzureRetailWeb\AzureRetailWeb.csproj", "{290A0FBC-2689-46C6-99FE-10C58A7F755A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerService", "CustomerService\CustomerService.csproj", "{18FE345A-86DB-40B0-B994-6432BD5934A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{290A0FBC-2689-46C6-99FE-10C58A7F755A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{290A0FBC-2689-46C6-99FE-10C58A7F755A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{290A0FBC-2689-46C6-99FE-10C58A7F755A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18FE345A-86DB-40B0-B994-6432BD5934A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18FE345A-86DB-40B0-B994-6432BD5934A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18FE345A-86DB-40B0-B994-6432BD5934A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18FE345A-86DB-40B0-B994-6432BD5934A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
