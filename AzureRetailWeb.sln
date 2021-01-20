@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureRetailWeb", "AzureRetailWeb\AzureRetailWeb.csproj", "{290A0FBC-2689-46C6-99FE-10C58A7F755A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureRetailWeb", "AzureRetailWeb\AzureRetailWeb.csproj", "{290A0FBC-2689-46C6-99FE-10C58A7F755A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerService", "CustomerService\CustomerService.csproj", "{18FE345A-86DB-40B0-B994-6432BD5934A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerService", "CustomerService\CustomerService.csproj", "{18FE345A-86DB-40B0-B994-6432BD5934A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService", "ProductService\ProductService.csproj", "{C20D5888-B13E-4EAC-83ED-E78EA970FC7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductService", "ProductService\ProductService.csproj", "{C20D5888-B13E-4EAC-83ED-E78EA970FC7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService", "OrderService\OrderService.csproj", "{C2982427-C34E-4616-AAC8-54628B246D63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{C20D5888-B13E-4EAC-83ED-E78EA970FC7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C20D5888-B13E-4EAC-83ED-E78EA970FC7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C20D5888-B13E-4EAC-83ED-E78EA970FC7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2982427-C34E-4616-AAC8-54628B246D63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2982427-C34E-4616-AAC8-54628B246D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2982427-C34E-4616-AAC8-54628B246D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2982427-C34E-4616-AAC8-54628B246D63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

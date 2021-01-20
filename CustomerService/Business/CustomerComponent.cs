@@ -27,6 +27,11 @@ namespace CustomerService.Business
             return customers.Where(x=>x.CustomerId == customerId).SingleOrDefault();
         }
 
+        public IEnumerable<Customer> GetCustomers()
+        {
+            return customers;
+        }
+
         public bool IsAuthenticated(Customer customer)
         {
             if (customers.Where(x=>x.Passwd == customer.Passwd && x.Email == customer.Email).SingleOrDefault() != null)

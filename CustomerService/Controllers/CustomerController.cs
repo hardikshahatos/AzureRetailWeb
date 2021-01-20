@@ -34,6 +34,20 @@ namespace CustomerService.Controllers
         }
 
         [HttpGet]
+        [Route("api/customers")]
+        public ActionResult<IEnumerable<Customer>> Get()
+        {
+
+            var customers = authenticateCustomerComponent.GetCustomers();
+            if (customers == null || customers.Count() == 0)
+            {
+                return NotFound();
+            }
+            return Ok(customers);
+
+        }
+
+        [HttpGet]
         [Route ("api/customer/authenticate")]
         public ActionResult<bool> Get(Customer customer)
         {

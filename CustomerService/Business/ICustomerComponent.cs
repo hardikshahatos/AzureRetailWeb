@@ -10,5 +10,6 @@ namespace CustomerService.Business
     {
         bool IsAuthenticated(Customer customer);
         Customer GetCustomer(int customerId);
+        IEnumerable<Customer> GetCustomers();
     }
 }
